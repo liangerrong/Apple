@@ -1,0 +1,86 @@
+{
+  "project": "Apple_2026",
+  "created": "2026-04-18",
+  "last_updated": "2026-04-18",
+  "complexity_type": "C",
+  "research_tier": "Standard",
+  "budget": {
+    "N_search": 30,
+    "N_fetch": 30,
+    "N_docs": 12,
+    "N_iter": 6,
+    "K": 5
+  },
+  "counters": {
+    "searches_used": 16,
+    "fetches_used": 6,
+    "docs_queried": 6,
+    "iterations_done": 6
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "label": "Services Growth",
+      "statement": "Apple Services revenue CAGR >= 10% through FY2027",
+      "prior": 0.65,
+      "posterior": 0.78,
+      "evidence_for": ["A03","A27","KM06","KM33","KM46","A12"],
+      "evidence_against": ["A09","A24"],
+      "status": "SUPPORTED — historical CAGR 13.2%; consensus estimates 14% growth; main risk is Google search deal (DOJ case) and EU DMA"
+    },
+    {
+      "id": "H2",
+      "label": "Hardware Margins",
+      "statement": "iPhone gross margins sustainable at 35%+ through FY2027",
+      "prior": 0.60,
+      "posterior": 0.72,
+      "evidence_for": ["A06","A07","KM08","KM23","A23"],
+      "evidence_against": ["A25","KM50"],
+      "status": "SUPPORTED — Products gross margin 36.8% in FY2025; iPhone ASP at record $1032; main risk is tariffs ($1.1B/quarter headwind) and Pro mix sustainability"
+    },
+    {
+      "id": "H3",
+      "label": "Market Share",
+      "statement": "Apple smartphone market share not declining materially (>15% global unit share)",
+      "prior": 0.55,
+      "posterior": 0.82,
+      "evidence_for": ["A13","A14","A29","KM37","KM38","KM40"],
+      "evidence_against": ["A15"],
+      "status": "STRONGLY SUPPORTED — Apple at 20% global unit share in CY2025 (#1); 62% premium share; China competitive but Q4 recovered"
+    },
+    {
+      "id": "H4",
+      "label": "ROIC-WACC",
+      "statement": "Apple ROIC-WACC spread remains positive and stable through FY2027",
+      "prior": 0.70,
+      "posterior": 0.88,
+      "evidence_for": ["A18","A19","A20","A21","KM41","KM42","KM43"],
+      "evidence_against": [],
+      "status": "STRONGLY SUPPORTED — ROIC 52-85%; WACC ~9%; spread massively positive; note buyback distortion but even conservative NOPAT/invested capital is exceptional"
+    },
+    {
+      "id": "H5",
+      "label": "Bear Case — AI Disruption",
+      "statement": "GenAI competition erodes iPhone upgrade cycle, materially slowing revenue growth",
+      "prior": 0.40,
+      "posterior": 0.28,
+      "evidence_for": ["A26","C003_alt_data"],
+      "evidence_against": ["A13","A23","KM35","A02"],
+      "status": "PARTIALLY REDUCED — iPhone 17 upgrade strong despite AI Siri delay; hardware design drove Q1 FY2026 +15.7%; BUT AI monetization unproven; Siri still lags ChatGPT/Gemini; mid-term risk if Apple cannot deliver compelling AI"
+    }
+  ],
+  "sub_questions": [
+    {"id": "Q1", "label": "What is Apple?", "status": "complete", "key_assertions": ["A01","A02","A03","A04","A05"]},
+    {"id": "Q2", "label": "How does the business work?", "status": "complete", "key_assertions": ["A06","A07","A08","A09","A10","A28"]},
+    {"id": "Q3", "label": "Business Model Canvas", "status": "complete", "key_assertions": ["A11","A12","A30"]},
+    {"id": "Q4", "label": "Competitive Landscape", "status": "complete", "key_assertions": ["A13","A14","A15"]},
+    {"id": "Q5", "label": "Peers and Benchmarks", "status": "complete", "key_assertions": ["A16","A17"]},
+    {"id": "Q6", "label": "Moat and Sustainability", "status": "complete", "key_assertions": ["A18","A19","A20","A21"]},
+    {"id": "Q7", "label": "Future Earnings and Valuation", "status": "complete", "key_assertions": ["A22","A23","A24","A25","A26","A29"]}
+  ],
+  "contradiction_count": 4,
+  "contradictions_resolved": 4,
+  "contradictions_unresolved": 0,
+  "mid_point_checkpoint": "2026-04-18 — after Iter 3",
+  "phase": "Phase 4 Complete — Moving to Phase 5A Synthesis"
+}

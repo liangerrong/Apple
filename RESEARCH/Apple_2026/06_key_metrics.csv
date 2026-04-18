@@ -1,0 +1,56 @@
+metric_id,metric_name,value,unit,period,geography,segment,source_id,assertion_tier,notes
+KM01,Total Net Sales,416161,USD millions,FY2025 (12M ended Sep 27 2025),Global,Total,S01,C1,+6.4% YoY; confirmed S02
+KM02,iPhone Revenue,209586,USD millions,FY2025,Global,iPhone,S01,C1,+4.2% YoY; 50.4% of total
+KM03,Mac Revenue,33708,USD millions,FY2025,Global,Mac,S01,C1,+12.4% YoY
+KM04,iPad Revenue,28023,USD millions,FY2025,Global,iPad,S01,C1,+5.0% YoY
+KM05,Wearables Home Accessories Revenue,35686,USD millions,FY2025,Global,Wearables/Home/Accessories,S01,C1,-3.6% YoY
+KM06,Services Revenue,109158,USD millions,FY2025,Global,Services,S01,C1,+13.5% YoY; 26.2% of total
+KM07,Products Revenue,307003,USD millions,FY2025,Global,Products,S01,C1,+4.1% YoY
+KM08,Products Gross Margin %,36.8,%,FY2025,Global,Products,S01,C1,Cost of products $194116M
+KM09,Services Gross Margin %,75.4,%,FY2025,Global,Services,S01,C1,Cost of services $26844M
+KM10,Total Gross Margin %,46.9,%,FY2025,Global,Total,S01,C1,Gross profit $195201M; record high
+KM11,Operating Income,133050,USD millions,FY2025,Global,Total,S01,C1,Operating margin 32.0%
+KM12,Net Income,112010,USD millions,FY2025,Global,Total,S01,C1,+19.5% YoY; net margin 26.9%
+KM13,Diluted EPS (GAAP),7.46,USD,FY2025,Global,Total,S02,C1,+22% YoY; confirmed S09
+KM14,R&D Expense,34550,USD millions,FY2025,Global,Total,S01,C1,+10% YoY; headcount + infrastructure
+KM15,SG&A Expense,27601,USD millions,FY2025,Global,Total,S01,C1,
+KM16,Operating Cash Flow,111482,USD millions,FY2025,Global,Total,S01,C1,
+KM17,Capital Expenditures,12715,USD millions,FY2025,Global,Total,S01,C1,
+KM18,Free Cash Flow,98767,USD millions,FY2025,Global,Total,S01,C1,Calculated: OCF - CapEx
+KM19,Share Buybacks,90711,USD millions,FY2025,Global,Total,S01,C1,
+KM20,Dividends Paid,15421,USD millions,FY2025,Global,Total,S01,C1,
+KM21,Total Capital Returned,106132,USD millions,FY2025,Global,Total,S01,C1,Calculated: buybacks + dividends
+KM22,Cash and Marketable Securities,132420,USD millions,Sep 27 2025,Global,Total,S01,C1,"Cash $35934M, current securities $18763M, non-current $77723M"
+KM23,Total Debt,98657,USD millions,Sep 27 2025,Global,Total,S01,C1,"Commercial paper $7979M, term debt $90678M"
+KM24,Net Cash,33763,USD millions,Sep 27 2025,Global,Total,S01,C1,Calculated: cash/sec - debt; ~$34B confirmed S10
+KM25,Total Assets,359241,USD millions,Sep 27 2025,Global,Total,S01,C1,
+KM26,Total Liabilities,285508,USD millions,Sep 27 2025,Global,Total,S01,C1,
+KM27,Total Stockholders Equity,73733,USD millions,Sep 27 2025,Global,Total,S01,C1,
+KM28,Americas Revenue,178353,USD millions,FY2025,Americas,Total,S01,C1,+6.8% YoY; 42.9% of total
+KM29,Europe Revenue,111032,USD millions,FY2025,Europe,Total,S01,C1,+9.6% YoY
+KM30,Greater China Revenue,64377,USD millions,FY2025,Greater China,Total,S01,C1,-3.8% YoY
+KM31,Japan Revenue,28703,USD millions,FY2025,Japan,Total,S01,C1,+14.6% YoY
+KM32,Rest of Asia Pacific Revenue,33696,USD millions,FY2025,Rest of Asia Pacific,Total,S01,C1,+9.9% YoY
+KM33,Services Revenue Q1 FY2026,30000,USD millions,Q1 FY2026 (ended Dec 28 2025),Global,Services,S03,C1,+14% YoY; 76.5% gross margin
+KM34,Services Gross Margin % Q1 FY2026,76.5,%,Q1 FY2026,Global,Services,S03,C1,Continued margin expansion
+KM35,Total Revenue Q1 FY2026,143760,USD millions,Q1 FY2026,Global,Total,S03,C1,+15.7% YoY; beat consensus by $5.5B
+KM36,EPS Q1 FY2026 (GAAP),2.84,USD,Q1 FY2026,Global,Total,S12,C1,Beat consensus $2.67 by $0.17
+KM37,Global Smartphone Market Share CY2025,20.0,%,CY2025,Global,iPhone,S04,C1,#1 globally; 251.7M units; +7.4% YoY; confirmed S05
+KM38,iPhone ASP Q4 2025,1032,USD,Q4 CY2025,Global,iPhone,S08,C1,First time above $1000; SAG data
+KM39,US iPhone Weighted Avg Retail Price Dec 2025,1077,USD,Dec 2025 quarter,United States,iPhone,S15,C2,Highest on record per CIRP methodology
+KM40,Premium Smartphone Market Share >$600,62.0,%,H1 2025,Global,iPhone,S05,C1,Counterpoint data
+KM41,ROIC FY2025 (GuruFocus methodology),56.14,%,Annualized Q4 FY2025,Global,Total,S06,C2,"Mechanically elevated by buybacks; NOPAT/Avg invested capital; another calc: 52% (MLQ.ai), 85% (DCF site)"
+KM42,WACC Estimate,9.0,%,2025-2026,Global,Total,"S06,S18,S19",C2,"Range 8.86%-9.2% across 3 sources; consensus ~9%"
+KM43,ROIC-WACC Spread,~47-76,percentage points,FY2025,Global,Total,"S06,S07",C2,"Massively positive regardless of ROIC methodology used; note buyback distortion"
+KM44,FY2026 EPS Consensus,7.92,USD,FY2026E,Global,Total,S12,C2,Range $7.46-$8.20 (13 analyst estimates at MarketBeat)
+KM45,FY2026 Base Case EPS (Analyst),8.60-8.80,USD,FY2026E,Global,Total,S11,C2,FXOpen base scenario; 29x forward P/E at $260 stock
+KM46,App Store US GMV 2024,406,USD billions,CY2024,United States,Services,S22,C1,Nearly tripled from $142B in 2019 (5 years)
+KM47,App Store Weekly Users Global,850,millions,CY2025,Global,Services,S13,C1,Apple disclosure
+KM48,Apple Pay Bank/Network Partners,11000+,count,CY2025,Global,Services,S13,C2,Available in 89 markets
+KM49,EU DMA Fine,500,EUR millions,Apr 2025,EU,Regulatory,S17,C1,Steering-related violations; more possible
+KM50,Tariff Costs Q4 FY2025,1100,USD millions,Q4 FY2025,Global,Total,S10,C1,From tariffs on China imports; Q1 FY2026 ~$1.4B expected
+KM51,Prior Year Total Net Sales FY2024,391035,USD millions,FY2024,Global,Total,S01,C1,Prior year for YoY comparison
+KM52,Prior Year Services Revenue FY2024,96169,USD millions,FY2024,Global,Services,S01,C1,
+KM53,Prior Year Net Income FY2024,93736,USD millions,FY2024,Global,Total,S09,C2,"Approx; FY2024 EPS ~$6.11 (adjusted for one-time EU tax)"
+KM54,Services Revenue FY2023,85200,USD millions,FY2023,Global,Services,S04,C2,For 3-year CAGR calculation
+KM55,Services Revenue CAGR FY2023-FY2025,13.2,%,FY2023-FY2025,Global,Services,S01,C1,"Calc: ($109.2B/$85.2B)^(1/2)-1=13.2%; above H1 threshold of 10%"
